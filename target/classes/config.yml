@@ -1,9 +1,0 @@
-#simpleHub
-#The world you have your hub in (multiverse compatible)
-world: world
-#Cordinates you want your players to get to when they execute /hub or /lobby
-x: 0
-y: 0
-z: 0
-#confirmMessage
-confirmmsg: "Successfully teleported"

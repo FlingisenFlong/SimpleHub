@@ -1,9 +1,0 @@
-name: SimpleHub
-version: '1.0-SNAPSHOT'
-main: xyz.glowberry.simplehub.SimpleHub
-api-version: '1.21'
-commands:
-  hub:
-    description: teleports player to hub
-    usage: /hub
-    aliases: [h, lobby]
