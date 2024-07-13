@@ -2,6 +2,7 @@ package xyz.glowberry.simplehub;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
+import xyz.glowberry.simplehub.commands.HubCommand;
 
 public class SimpleHub extends JavaPlugin {
 

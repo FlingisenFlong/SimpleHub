@@ -37,6 +37,10 @@
             <goals>
               <goal>shade</goal>
             </goals>
+              <configuration>
+                  <createDependencyReducedPom>false</createDependencyReducedPom>
+                  <outputFile>D:\react appar\SimpleHub\dist\maven\SimpleHub.jar</outputFile>
+              </configuration>
           </execution>
         </executions>
       </plugin>
