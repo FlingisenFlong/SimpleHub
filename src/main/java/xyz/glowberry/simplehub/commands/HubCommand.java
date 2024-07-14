@@ -19,16 +19,18 @@ public class HubCommand implements CommandExecutor {
         }
 
         Player player = (Player) sender;
+
+
         SimpleHub plugin = SimpleHub.getInstance();
 
-        // Hämta hub-informationsvariabler
+        // Retrieve hub information variables
         String hubWorldName = plugin.getHubWorld();
         double hubX = plugin.getHubX();
         double hubY = plugin.getHubY();
         double hubZ = plugin.getHubZ();
         String confirmmsg = plugin.getConfirmmsg();
 
-        // Hämta Multiverse-världen
+        // Get the Multiverse world
         World hubWorld = Bukkit.getWorld(hubWorldName);
 
         if (hubWorld == null) {
@@ -36,12 +38,12 @@ public class HubCommand implements CommandExecutor {
             return true;
         }
 
-        // Skapa en ny location baserat på konfigurationskoordinaterna
+        // Create a new location based on the config coordinates
         Location hubLocation = new Location(hubWorld, hubX, hubY, hubZ);
 
-        // Teleportera spelaren till den specificerade hub-lokationen
+        // Teleport the player to the specified hub location
         player.teleport(hubLocation);
-        player.sendMessage(confirmmsg); // Skicka bekräftelsemeddelandet till spelaren
+        player.sendMessage(confirmmsg); // Send confirmation message to the player
 
         return true;
     }
