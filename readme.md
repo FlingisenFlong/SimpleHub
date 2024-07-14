@@ -41,8 +41,14 @@ If you wish to build the plugin from source, follow these steps:
    ```bash
    git clone https://github.com/FlingisenFlong/SimpleHub.git
    ```
-2. **Build plugin using maven**
    
    ```bash
    cd SimpleHub
    ```
+
+2. **Build plugin using maven**
+
+```bash
+mvn clean install
+```
+The jar file will be in the target folder
