@@ -30,4 +30,13 @@ x: 0
 y: 64
 z: 0
 confirmmsg: "&aTeleported to hub successfully!"
+```
 
+## Building from Source
+
+If you wish to build the plugin from source, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/SimpleHub.git
+   cd SimpleHub
