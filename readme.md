@@ -48,7 +48,7 @@ If you wish to build the plugin from source, follow these steps:
 
 2. **Build plugin using maven**
 
-```bash
-mvn clean install
-```
+   ```bash
+   mvn clean install
+   ```
 The jar file will be in the target folder
