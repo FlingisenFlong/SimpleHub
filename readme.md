@@ -38,5 +38,5 @@ If you wish to build the plugin from source, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/SimpleHub.git
+   git clone https://github.com/FlingisenFlong/SimpleHub.git
    cd SimpleHub
