@@ -15,6 +15,7 @@ SimpleHub is a straightforward and efficient plugin designed to teleport players
 2. Place the `SimpleHub.jar` file in your server's `plugins` directory.
 3. Restart your server to generate the default configuration file.
 4. Configure the plugin by editing the `config.yml` file located in the `plugins/SimpleHub` folder.
+5. Restart the server again
 
 ## Tested versions
 **1.21**
