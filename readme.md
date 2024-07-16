@@ -47,6 +47,7 @@ If you wish to build the plugin from source, follow these steps:
    ```
 
 2. **Build plugin using maven**
+   
    windows
    ```cmd
    mvnw.cmd clean install
