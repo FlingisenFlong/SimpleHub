@@ -47,8 +47,12 @@ If you wish to build the plugin from source, follow these steps:
    ```
 
 2. **Build plugin using maven**
-
-   ```bash
-   mvn clean install
+   windows
+   ```cmd
+   mvnw.cmd clean install
    ```
-The jar file will be in the target folder
+   linux/mac
+   ```sh
+   ./mvnw clean install
+   ```
+The jar file will be located in the target folder
